@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="./IMG/Favicom/logo fabio - Copia.png" type="image/x-icon">
+<title>Decodificador de texto</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="image-container">
+        <img src="./IMG/Detive mirim.jpg" alt="Imagem de exemplo">
+    </div>
+    <div class="text-container">
+        <textarea id="input-text" rows="10" cols="50"></textarea>
+        <textarea id="output-text" rows="10" cols="50"></textarea>
+    </div>
+    <div class="button-container">
+        <button onclick="encryptText()">Criptografar</button>
+        <button onclick="decryptText()">Descriptografar</button>
+        <button onclick="copyText()">Copiar</button>
+        <button onclick="pasteText()">Colar</button>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
